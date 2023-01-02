@@ -1,0 +1,47 @@
+html body {
+  background: #181719;
+}
+html body main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+html body main table {
+  border-collapse: collapse;
+}
+html body main table tbody tr td {
+  border: 1px solid #fff;
+  width: 14vw;
+  max-width: 100px;
+  height: 15.8333333333vh;
+  max-height: 100px;
+  position: relative;
+}
+@media screen and (max-width: 600px) {
+  html body main table tbody tr td {
+    height: 12.5vh;
+  }
+}
+@media screen and (max-width: 400px) {
+  html body main table tbody tr td {
+    height: 6.6666666667vh;
+  }
+}
+html body main table tbody tr td .player {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+html body main table tbody tr td .player.cyan {
+  background-color: #00C9A9;
+  border: 2px solid #05ac90;
+}
+html body main table tbody tr td .player.magenta {
+  background-color: #A87BE3;
+  border: 2px solid #9163cc;
+}/*# sourceMappingURL=style.css.map */
